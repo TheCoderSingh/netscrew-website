@@ -106,15 +106,16 @@ header .logo {
 }
 header .logo a {
    display: block;
-   padding: 0;
+   padding: 5px;
    margin: 0;
    height: 18px;
-   width: 91px;
+   width: 60px;
    line-height: 18px;
 
    position: absolute;
    left: 12px;
-   top: 16px;
+   /* top: 16px; */
+   top: 0px !important;
 }
 
 /* primary navigation
@@ -184,7 +185,9 @@ ul#nav li.active a { color: #11ABB0; }
 /* ================================================================== */
 
 #intro {
-   background: #111 url(../images/intro-bg.jpg) no-repeat center;
+   /* background: #111 url(../images/intro-bg.jpg) no-repeat center; */
+   background: #111 url(../images/slider-bg.png) no-repeat;
+   background-size: cover;
    overflow: hidden;
 }
 
